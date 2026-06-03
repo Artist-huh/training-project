@@ -39,7 +39,7 @@ func testWordCount() {
 }
 
 func main() {
-	fmt.Println("=== Тестирование WordCount ===\n")
+	fmt.Println("Тестирование WordCount\n")
 	testWordCount()
 	
 	// Интерактивный режим
