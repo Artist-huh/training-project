@@ -10,7 +10,7 @@ func adder() func(int) int {
 	}
 }
 
-func main2() {
+func main23() {
 	pos, neg := adder(), adder()
 	for i := 0; i < 10; i++ {
 		fmt.Println(

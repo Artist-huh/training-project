@@ -18,7 +18,7 @@ func (v *Rertex) Scale(f float64) {
 	v.Y = v.Y * f
 }
 
-func main() {
+func main6() {
 	v := Rertex{3, 4}
 	v.Scale(10)
 	fmt.Println(v.Abs())
